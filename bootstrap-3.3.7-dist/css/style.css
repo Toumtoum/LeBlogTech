@@ -1,0 +1,45 @@
+html, body { height: 100% }
+
+
+.page {
+	min-height: 100%;
+	position: relative;
+}
+
+.box {
+  border: 1px red dotted;
+}
+
+.container {
+  max-width: 1000px;
+  padding-bottom: 50px;
+}
+
+.profil p{
+  font-size: 11px;
+}
+
+.profil aside {
+  text-align: center;
+}
+
+.profil aside ul{
+  list-style: none;
+  padding : 0px;
+}
+
+.profil aside ul li{
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
