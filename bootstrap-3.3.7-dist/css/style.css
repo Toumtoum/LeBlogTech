@@ -44,11 +44,19 @@ footer {
   right: 0;
 }
 
+footer p{
+	display: inline-block;
+	margin-left: 8px;
+	color: #777;
+	text-align: right;
+	font-style: italic;
+}
+
 #Date{
 display: inline-block;
 margin-left: 8px;
 margin-bottom: 8px;
 margin-top: 8px;
-color: blue;
-border: 1px red dotted;
+color: #777;
+font-style: italic;
 }
